@@ -1,0 +1,61 @@
+body{
+    background-color: #e9ebf1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 6px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+}
+button{
+    margin-top: 5px;
+    padding: 6px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+    transform: scaleX(1.05);
+    background-color: aqua;
+}
+
+.agregar-form,
+.buscar-form{
+    width: 300px;
+}
+
+.agregar-form{
+    background-color: rgb(15, 130, 40);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    font-family:"SN Pro",sans-serif;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px black;
+} 
+.contenedor{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.buscar-form{
+   background-color: rgb(15, 130, 40);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    font-family:"SN Pro",sans-serif;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px black; 
+}

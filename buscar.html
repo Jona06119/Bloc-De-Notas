@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar</title>
+    <link rel="stylesheet" href="css/notas.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>Notas</h1>
+        <form class="buscar-form" id="formulario-buscar">
+            <div> <i class="bi bi-search-heart-fill"></i></div>
+            <input type="text" placeholder="Buscar" id="buscar">
+        </form>
+        <button id="btn-salir" type="button">
+            <i class="bi bi-box-arrow-right"></i>
+        </button>
+    </header>
+    <main>
+        <a href="agregar.html" class="btn-add"> + </a>
+        <ul id="lista-notas"> <!-- Lista donde se mostrarán las notas guardadas -->
+            <li>
+                <div>
+                    <h1>titulo</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ab a possimus perferendis
+                        accusantium autem suscipit rem commodi, dolore optio.
+                    </p>
+                    <div>
+                        <button>
+                            <i class="bi bi-trash-fill trash"></i>
+                            <i class="bi bi-trash2 trash2"></i>
+                        </button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <script src="js/mostrar.js"></script>
+    <script src="js/salir.js"></script> <!-- solo maneja el botón de cerrar sesión-->
+</body>
+
+</html>

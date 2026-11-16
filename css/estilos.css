@@ -1,0 +1,63 @@
+body{
+    background-color: #e9ebf1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-form{    
+    width: 320px;                          /*Una clase se pone un punto*/
+    max-width: 90%;
+    background-color: rgb(15, 130, 40);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    font-family:"SN Pro",sans-serif;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.login-form div{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+div i{
+    font-size: 40px;
+    color: rgb(154, 141, 170);
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+input{
+    padding: 4px;
+    margin-bottom: 12px;
+    width: 100%;
+    border: none;
+    border-bottom: rgb(21, 21, 20) 2px solid;
+    outline: none;
+}
+
+input::placeholder{
+    color: #888;
+}
+
+button[type="submit"]{ 
+    background-color: #390e84;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    padding: 4px 8px;
+    border:none;
+    width: 60%;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover{
+    transform: scaleX(1.05);
+    background-color: aqua;
+}
